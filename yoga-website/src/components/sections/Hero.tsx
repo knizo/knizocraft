@@ -8,10 +8,8 @@ const Hero = () => {
     <section id="home" className="relative min-h-screen flex items-center bg-zen-gradient overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 opacity-30">
-        <div className="w-full h-full" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 20 0 L 0 0 0 20' fill='none' stroke='%23ffffff20' stroke-width='1'/%3E%3C/svg%3E")`
-        }}></div>
-      </div>
+     <div className="w-full h-full bg-gradient-to-br from-amethyst-light/10 to-lavender/10"></div>
+     </div>
       
       {/* Floating Elements */}
       <div className="absolute top-20 right-10 w-32 h-32 bg-amethyst-light/20 rounded-full animate-float"></div>
