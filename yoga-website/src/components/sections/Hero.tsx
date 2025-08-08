@@ -6,10 +6,10 @@ import { Play, Star, Users, Calendar } from 'lucide-react';
 const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center bg-zen-gradient overflow-hidden">
-      {/* Background Elements */}
+      {/* Background Elements - FIXED */}
       <div className="absolute inset-0 opacity-30">
-     <div className="w-full h-full bg-gradient-to-br from-amethyst-light/10 to-lavender/10"></div>
-     </div>
+        <div className="w-full h-full bg-gradient-to-br from-amethyst-light/10 to-lavender/10"></div>
+      </div>
       
       {/* Floating Elements */}
       <div className="absolute top-20 right-10 w-32 h-32 bg-amethyst-light/20 rounded-full animate-float"></div>
